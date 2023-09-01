@@ -1,0 +1,7 @@
+def celcius_to_fahrenheit(celcius):
+    fahrenheit=(celcius*9/5)+32
+    return fahrenheit
+    
+celcius=int(input("Enter the number of your choice:- "))
+fahrenheit=celcius_to_fahrenheit(celcius)
+print(f"{celcius} is equal to {fahrenheit} degree")
