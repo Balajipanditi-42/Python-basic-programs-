@@ -1,0 +1,10 @@
+def even_or_odd(number):
+    result=number%2==0
+    return result
+    
+value=int(input("Enter a number of your choice:- "))
+resultant=even_or_odd(value)
+if value is not None:
+    print("The value is even number",resultant)
+else:
+    print("The value is odd number")
