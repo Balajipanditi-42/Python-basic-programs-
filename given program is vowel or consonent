@@ -1,0 +1,11 @@
+def vowel_or_consonent(alphabet):
+    if alphabet in ('a','e','i','o','u','A','E','I','O','U'):
+        return"The given value is vowel"
+    elif alphabet.isalpha():
+        return "The given number is consonent"
+    else:
+        return "given character is not a alphabet"
+        
+alphabet=input("Enter a character of your choice :- ")
+result=vowel_or_consonent(alphabet)
+print(result)
